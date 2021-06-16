@@ -1,0 +1,45 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@fontsource/fira-mono': ^4.2.2
+  '@lukeed/uuid': ^2.0.0
+  '@sveltejs/kit': link:/home/jbusillo/Projects/kit/packages/kit
+  cookie: ^0.4.1
+  svelte: ^3.34.0
+
+dependencies:
+  '@fontsource/fira-mono': 4.4.5
+  '@lukeed/uuid': 2.0.0
+  cookie: 0.4.1
+
+devDependencies:
+  '@sveltejs/kit': link:../kit/packages/kit
+  svelte: 3.38.2
+
+packages:
+
+  /@fontsource/fira-mono/4.4.5:
+    resolution: {integrity: sha512-LWbsPhTr1JRV3zUgvMrOxQDn1BG9F4R0FPeBkqWP8/oqPxvVYAhEepg1DN9M1k6L9sRN2I2HWHBpt4QVbDGXpw==}
+    dev: false
+
+  /@lukeed/csprng/1.0.0:
+    resolution: {integrity: sha512-ruuGHsnabmObBdeMg3vKdGRmh06Oog3eFpf/Tk6X0kDSJDpJTDCj2dqdp1+0VjzIUgHlFF9GBm7uFqfYhhdX9g==}
+    engines: {node: '>=8'}
+    dev: false
+
+  /@lukeed/uuid/2.0.0:
+    resolution: {integrity: sha512-dUz8OmYvlY5A9wXaroHIMSPASpSYRLCqbPvxGSyHguhtTQIy24lC+EGxQlwv71AhRCO55WOtgwhzQLpw27JaJQ==}
+    engines: {node: '>=8'}
+    dependencies:
+      '@lukeed/csprng': 1.0.0
+    dev: false
+
+  /cookie/0.4.1:
+    resolution: {integrity: sha512-ZwrFkGJxUR3EIoXtO+yVE69Eb7KlixbaeAWfBQB9vVsNn/o+Yw69gBWSSDK825hQNdN+wF8zELf3dFNl/kxkUA==}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /svelte/3.38.2:
+    resolution: {integrity: sha512-q5Dq0/QHh4BLJyEVWGe7Cej5NWs040LWjMbicBGZ+3qpFWJ1YObRmUDZKbbovddLC9WW7THTj3kYbTOFmU9fbg==}
+    engines: {node: '>= 8'}
+    dev: true
